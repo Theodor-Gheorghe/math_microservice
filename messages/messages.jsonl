@@ -1,0 +1,6 @@
+{"timestamp": "2025-08-10T22:20:30.538511", "operation": "factorial", "input": {"number": 6}, "result": 720}
+{"timestamp": "2025-08-10T22:20:34.125968", "operation": "factorial", "input": {"number": 55}, "result": 12696403353658275925965100847566516959580321051449436762275840000000000000}
+{"timestamp": "2025-08-10T22:30:14.442869", "operation": "factorial", "input": {"number": 5}, "result": 120}
+{"timestamp": "2025-08-10T22:30:19.209104", "operation": "factorial", "input": {"number": 5}, "result": 120}
+{"timestamp": "2025-08-10T22:30:35.165740", "operation": "power", "input": {"base": 2.0, "exponent": 4.0}, "result": 16.0}
+{"timestamp": "2025-08-10T22:30:42.527068", "operation": "fibonacci", "input": {"number": 7}, "result": 13}
