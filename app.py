@@ -1,11 +1,11 @@
 from flask import Flask
-from routes import api          # ✅ importăm blueprint-ul
-from models import init_db      # ✅ importăm inițializarea DB
+from routes import api          # import of blueprint
+from models import init_db      # import DB initialization
 
 app = Flask(__name__)
-init_db()                       # ✅ creăm tabela dacă nu există
+init_db()                       # create table if not exist
 
-# ✅ Înregistrăm toate rutele din blueprint
+#  registry all routes from blueprint
 app.register_blueprint(api)
 
 if __name__ == '__main__':
