@@ -1,9 +1,7 @@
 from services import calculate_factorial, calculate_pow, calculate_fibonacci
 
+# Simulates a serverless function: receives an event (JSON) and returns a result
 def lambda_handler(event):
-    """
-    Simulează o funcție serverless: primește un `event` (JSON) și returnează un rezultat.
-    """
     operation = event.get('operation')
     input_data = event.get('input', {})
 
